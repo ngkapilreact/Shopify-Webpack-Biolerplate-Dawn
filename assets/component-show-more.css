@@ -1,0 +1,15 @@
+/*
+* Mixin for easy media queries
+* @include bp(tablet-only) { SCSS here };
+* Default css is for mobile screens
+*/
+.button-show-more {
+  padding-left: 0;
+  justify-content: flex-start;
+  padding-bottom: 1.1rem;
+}
+
+.button-show-more,
+.button-show-less {
+  margin-top: 1.5rem;
+}

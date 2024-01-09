@@ -1,0 +1,12 @@
+/*
+* Mixin for easy media queries
+* @include bp(tablet-only) { SCSS here };
+* Default css is for mobile screens
+*/
+.related-products {
+  display: block;
+}
+
+.related-products__heading {
+  margin: 0 0 3rem;
+}
